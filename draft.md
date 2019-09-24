@@ -5,6 +5,15 @@
 ![Alt text](/pic/hung.jpg)
 
 
+**flow**
+```
+watchdog
+	check_hung_uninterruptible_tasks
+		check_hung_task
+			sched_show_task
+					
+```
+
 **Init**
 ```
 static int __init hung_task_init(void)
